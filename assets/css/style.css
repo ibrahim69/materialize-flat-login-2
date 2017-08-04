@@ -1,0 +1,117 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body{
+  text-align: center;
+  color: white;
+  background: url('../image/malam-hari.jpeg');
+  background-size: cover;
+  font-family: "open sans", sans-serif;
+}
+h1{
+  font-weight: 200;
+
+}
+.login{
+  height: 30em;
+}
+.logins{
+  width: 500px;
+  background:#194B62 ;
+  height: 28.5em;
+}
+h2{
+  width: 100%;
+  background-color: #02A298;
+  font-weight: 200;
+  letter-spacing: 8px;
+  font-size: 25px;
+  padding: 15px;
+}
+.form-atas{
+  padding: 10px 3em 30px;
+}
+#email{
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+#password{
+  margin-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+*::-webkit-placeholder{
+  color: white;
+}
+*::-moz-placeholder{
+  color: white;
+}
+*:-moz-placeholder{
+  color: white;
+}
+*::-o-placeholder{
+  color: white;
+}
+*::-ms-placeholder{
+  color: white;
+}
+
+label{
+  color: white;
+  opacity: 1;
+  position: relative;
+}
+
+span{
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+  border: 2px solid white;
+}
+p>a{
+  float: right;
+  color: white;
+}
+button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-bawah{
+  margin: 10px 0 10px -20px;
+  border-radius: none !important;
+  outline: none;
+  padding: 10px;
+  border: 4px solid white;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  width: 108%;
+
+}
+.form-bawah a{
+  color: #02A298;
+  font-size: 19px;
+}
+.triangle-bottomright{
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid white;
+  border-right: 20px solid transparent;
+  position: absolute;
+  right: -4px;
+  top: -24px;
+}
+.triangle-bottomleft{
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
+  position: absolute;
+  left: -4px;
+  top: -24px;
+}
